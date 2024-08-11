@@ -121,7 +121,7 @@ const RobotGrid = () => {
               key={index}
               className={`text-black ${
                 shouldContainRobot ? 'bg-[#ECEAE4]' : 'bg-[#F7F7F7]'
-              } h-40 w-40 text-lg flex items-center justify-center`}
+              } h-[8rem] w-[8rem] text-lg flex items-center justify-center`}
             >
               {shouldContainRobot ? robotHtml() : ''}
             </div>
